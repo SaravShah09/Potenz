@@ -10,7 +10,7 @@ export default function ProductItem({ product, onEdit, onDelete }) {
       <div className="space-y-2 mb-4">
         <div className="flex justify-between">
           <span className="font-medium">Price:</span>
-          <span className="text-blue-600 font-bold">{product.price}</span>
+          <span className="text-blue-600 font-bold">Rs. {product.price}</span>
         </div>
         
         {product.category && (
